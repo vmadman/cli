@@ -1,0 +1,13 @@
+{
+  "@lukechavers/generator-luke": {
+    "projectName": "cli",
+    "projectDesc": "Luke's personal CLI utility, which he uses for the development of things.",
+    "projectVersion": "5.0.0",
+    "fullName": "Luke Chavers",
+    "emailAddress": "me@lukechavers.com",
+    "githubOwner": "vmadman",
+    "gitRepoName": "cli",
+    "vagrantPortStart": 3917,
+    "vagrantPortCount": 3
+  }
+}

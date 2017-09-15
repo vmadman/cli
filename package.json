@@ -1,6 +1,6 @@
 {
   "name": "@lukechavers/cli",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "Luke's personal CLI utility, which he uses for the development of things.",
   "main": "lib/index.js",
   "license": "MIT",

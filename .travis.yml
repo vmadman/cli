@@ -12,7 +12,6 @@ deploy:
   provider: npm
   email: npm@lukechavers.com
   on:
-    repo: vmadman/cli
     branches:
     - v5
   api_key:

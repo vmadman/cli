@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- '6'
+branches:
+  only:
+  - v5
+notifications:
+  email:
+    on_failure: always
+install: true
+deploy:
+  provider: npm
+  email: npm@lukechavers.com
+  on:
+    repo: vmadman/cli
+  api_key:
+    secure: QyHtoE1Iif5HIgGy5PZxllxz259xr50NrczocxJS37vBCyjIQ8tNuFHyPjjNMLi2mAgnle2hJtlXZK8v0R5uRwxV1AlTlunrCvKbrYd2UGUK8CHAgOcZRmjbAPnhSlgs0eiOTSb3hKuC5tSVeubhp8tcKlW4kby7SvMUVz+3d8yzobTyXwxVHGEuCmPc5N4GQJ9sadcxIglIuDC/O4NRLc0mziU1cRRraS2MR9EtzaqkZWF7PwqDlYNHfCrUzCBI3S0EZnBe4ghIiC+Oxi21X5GZTRsgoI6tZRcOdmP8hrXNB0YTQfTh6y4YH4ZKet3KTOpKDEul8djJYzm/QhY/2fgeWAz+vnsUk0WElG2cDaMcfcTcC9T29Wv42BDb93OwJkaXLLroqPom4w6UzFZYeEms4CaQV5KYlbE6ZpSFpjiKuTLY78r0jU8x5zolZhP8Gw+DkXRpVnAoIM8vCsgAqzk9RescW3t9DSizY/Or9VGJBopuL13N4nEXm6UFjVYr7f2KubKi09TMRneqHQRpcw9VlldhhHubTSxLrq3oOv2Vjfb73Y2r/qJDVRumcq29TxE/Ux3GMy3Ss6YYEFMycpYJJfIl8sTjoJQk6a6tHTbsaytozxuPAmHPYgX77o8SizoR9/bW4dEq+zTOW8mU+ThNtDiJA/QlkCf+Tb+sJ8g=
